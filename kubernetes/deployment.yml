@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: match
-          image: skcc03.azurecr.io/match:latest
+          image: skcc020.azurecr.io/match_je:latest
           ports:
             - containerPort: 8080
           readinessProbe:
